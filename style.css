@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left:35px;
+    display: flex;
+    justify-content: center;
+
+}
+.login-signup{
+    width:40%;
+}
+#login{
+    width: 100px;
+    height:40px;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+}
+#signup{
+    border: 1px solid black;
+    width:100px;
+    height:40px;
+    background-color: white;
+}
+h1,p{
+    margin-left:35px;
+}

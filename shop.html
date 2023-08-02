@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale="1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0d52bbff57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="shop.css">
+     <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="left"><h3>MeShop</h3></div>
+        <ul class="right">
+            <li><a href="shop.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="mycart.html">My Cart</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+
+<main class="container">
+    <div class="leftcontainer">
+        <div class="selectColors">
+        <label style="font-size:20px;">Color</label>
+        <div><input type="checkbox" name="color" value="green">Green</div>
+        <div><input type="checkbox" name="color" value="black">Black</div>
+        <div><input type="checkbox" name="color" value="yellow">Yellow</div>
+        <div><input type="checkbox" name="color" value="brown">Brown</div>
+        <div><input type="checkbox" name="color" value="violet">Violet</div>
+
+    </div>
+
+        <div class="selectSizes">
+            <label style="font-size: 20px;">Sizes</label>
+         <div> <input type="checkbox" name="size" id="S" value="S">S</div>
+       <div><input type="checkbox" name="size" id="M" value="M">M</div>
+       <div><input type="checkbox" name="size"  id="L" value="L">L</div>
+        <div><input type="checkbox" name="size"  id="XL" value="XL">XL</div>
+            </div>
+            <div class="slidecontainer">
+                <p style="font-size:20px; margin:4px;">Rating</p>
+                <input type="range" min="1" max="5" value="0" class="slider" id="myRange">
+              </div>
+              <div class="PriceRange">
+                <label style="font-size: 20px;">Price Range</label>
+                <div> <input type="checkbox" name="size" value="S">$0 to 25</div>
+              <div><input type="checkbox" name="size" value="$25to">$25 to $50</div>
+              <div><input type="checkbox" name="size" value="50to">$50 to $100</div>
+               <div><input type="checkbox" name="size" value="100">100 onwards</div>
+                </div>
+                <div><button id="applyfilter">Apply Filter</button></div>  
+    </div>
+    <div class="rightcontainer">
+  <input type="search" placeholder="Search" id="search">
+   <ul id="product-category-btns">
+    <li class="All"><a>All</a></li>
+    <li class="Mens"><a>Mens</a></li>
+    <li class="Women"><a>Women</a></li>
+    <li class="Electronics"><a>Electronics</a></li>
+    <li class="Jewellery"><a>Jewellery</a></li>
+    </ul>
+    
+   <ul id="product-conatainer">
+           
+   </ul>
+
+    </div>
+
+</main>
+
+<script src="shop.js"></script>
+</body>
+</html>

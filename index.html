@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="left"><h3>MeShop</h3></div>
+    <ul class="right">
+        <li><a>Home</a></li>
+        <li><a href="login.html"> Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a>My Cart</a></li>
+        <li><a>Profile</a></li>
+    </ul>
+</nav> 
+    
+    <h1>MeShop</h1>
+    <p>Your First Shop built on HTML,CSS AND JavaScript</p>
+    <main class="container">
+    <div class="login-signup"><button id="login">Login</button>
+        <button id="signup">Signup</button></div>
+    <div><img src="img/index.svg"></div>
+</main>
+<script>
+    document.getElementById('login').addEventListener('click',()=>{
+        window.location.href='login.html';
+    })
+    document.getElementById('signup').addEventListener('click',()=>{
+        window.location.href='signup.html';
+    })
+
+</script>
+</body>
+</html>
